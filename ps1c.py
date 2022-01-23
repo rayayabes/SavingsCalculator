@@ -1,6 +1,6 @@
 """
 Author: Raya Yabes
-Date: 1/23/22
+Finished Date: 1/23/22
 
 filename: ps1c.py
 
