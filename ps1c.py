@@ -1,31 +1,13 @@
+"""
+Author: Raya Yabes
+Date: 1/23/22
+
+filename: ps1c.py
+
+Determine best savings rate from monthly salary to save downpayment in 36 months
+
+"""
 def calculate_dream_home():
-
-    # annual_salary = input("Enter your annual salary:")
-    # total_cost = input("Enter the cost of your dream home:")
-    # portion_saved = input("Enter the percent of your salary to save, as a decimal:")
-    # semi_annual_raise = input("Enter the semi-annual raise, as a decimal: ")
-
-    # portion_down_payment = 0.25
-    # current_savings = 0
-    # # annual return for savings
-    # r = 0.04
-    # downpayment = portion_down_payment * total_cost
-
-    # months = 0
-    # while current_savings < downpayment:
-    #     monthly_salary = float(annual_salary) / 12
-    #     savings_per_month =  monthly_salary * portion_saved
-    #     if current_savings == 0:
-    #         current_savings = savings_per_month
-    #     else:
-    #         current_savings += savings_per_month
-    #         current_savings = current_savings * ( 1 +   r / 12 )
-    #     months += 1
-
-    #     if months % 6 == 0:
-    #         annual_salary += annual_salary * float(semi_annual_raise)
-
-    # print("Number of months: {}, total savings: {}".format(months, current_savings))
 
     annual_salary = input("Enter your annual salary:")
     total_cost = 1000000
@@ -75,7 +57,7 @@ def calculate_dream_home():
 
             bisection_counter += 1
 
-        print("Savings rate: {:.2f}\nBisection: {} \nSavings: {}".format(savings_rate, bisection_counter, temp_savings))
+        print("Savings rate: {:.4f}\nBisection: {} \nSavings: {}".format(savings_rate, bisection_counter, temp_savings))
 
     calculate_savings_rate(int(annual_salary), current_savings)   
 
