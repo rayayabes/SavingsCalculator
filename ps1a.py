@@ -1,3 +1,12 @@
+"""
+Author: Raya Yabes
+Finished Date: 1/23/22
+
+filename: ps1a.py
+
+Determine months to save downpayment give user saves portion from monthly salary
+
+"""
 def calculate_dream_home():
 
     annual_salary = input("Enter your annual salary:")
